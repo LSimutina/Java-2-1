@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int amount=5000;
-        int oneMili=20;
-        int bonus=amount/oneMili;
+        int amount = 1312; // сумма билета
+        int oneMili = 20; // количество рублей для одной бонусной мили
+        int bonus = amount / oneMili; // количество начисленных миль
 
-        System.out.println("Итоговый бонус: " + bonus);
+        System.out.println("Количество начисленных миль: " + bonus);
     }
 }
